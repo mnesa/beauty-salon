@@ -17,8 +17,8 @@ This project showcases clean UI/UX, mobile-friendly design, and smooth animation
 | 4. Service Details       | Individual service details (ex: Haircut, Facial, Makeup) |
 | 5. Gallery               | Photo gallery of salon, makeup looks, and work samples   |
 | 6. Pricing               | Service packages + pricing tables                        |
-| 7. Appointment (Booking) | Form to book appointments (UI only)                      |
-| 8. Blog/News             | Articles or tips related to beauty & skincare            |
+| 7. 404 page              | Error page)                      |
+| 8. Blog                  | Articles or tips related to beauty & skincare            |
 | 9. Contact               | Contact form + Google Map + salon location               |
 | 10. Testimonials         | Client reviews with slider/carousel                      |
 
@@ -75,8 +75,6 @@ This project showcases clean UI/UX, mobile-friendly design, and smooth animation
 1. **Download or Clone the Repository**  
    git clone https://github.com/your-username/beauty-salon-website.git
 
-yaml
-Copy code
 
 2. Open the **index.html** file in any browser.
 
