@@ -1,0 +1,107 @@
+# beauty-salon
+
+# 💄 Beauty Salon – Multi-Page Website (10 Pages)
+
+A fully responsive and modern **Beauty Salon Website** with 10 pages.  
+This project showcases clean UI/UX, mobile-friendly design, and smooth animations — ideal for salons, spas, and beauty service businesses.
+
+---
+
+## ✅ Pages Included
+
+| Page Name                | Description                                              |
+| ------------------------ | -------------------------------------------------------- |
+| 1. Home                  | Hero banner, services overview, CTA section              |
+| 2. About Us              | Salon story, mission, and expert team details            |
+| 3. Services              | List of beauty services with images & descriptions       |
+| 4. Service Details       | Individual service details (ex: Haircut, Facial, Makeup) |
+| 5. Gallery               | Photo gallery of salon, makeup looks, and work samples   |
+| 6. Pricing               | Service packages + pricing tables                        |
+| 7. Appointment (Booking) | Form to book appointments (UI only)                      |
+| 8. Blog/News             | Articles or tips related to beauty & skincare            |
+| 9. Contact               | Contact form + Google Map + salon location               |
+| 10. Testimonials         | Client reviews with slider/carousel                      |
+
+---
+
+## 🎯 Features
+
+- ✅ Modern & attractive UI design
+- ✅ Fully responsive for Mobile, Tablet & Desktop
+- ✅ Smooth animations & hover effects
+- ✅ Reusable header & footer on all pages
+- ✅ Clean folder structure (HTML, CSS, JS separated)
+- ✅ SEO-friendly meta tags and semantic HTML
+- ✅ Appointment Form (front-end only)
+- ✅ FontAwesome icons + Google Fonts used
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology   | Use                             |
+| ------------ | ------------------------------- |
+| HTML5        | Page structure                  |
+| CSS3         | Styling + responsive design     |
+| JavaScript   | Mobile menu, slider, animations |
+| FontAwesome  | Icons                           |
+| Google Fonts | Typography                      |
+
+---
+
+## 📂 Folder Structure
+
+📁 Beauty-Salon-Website
+├── 📁 assets
+│ ├── 📁 images
+│ ├── 📁 css
+│ │ └── style.css
+│ ├── 📁 js
+│ │ └── script.js
+├── index.html
+├── about.html
+├── services.html
+├── service-details.html
+├── gallery.html
+├── pricing.html
+├── appointment.html
+├── blog.html
+├── contact.html
+├── testimonials.html
+└── README.md
+
+## 🚀 How to Run This Project
+
+1. **Download or Clone the Repository**  
+   git clone https://github.com/your-username/beauty-salon-website.git
+
+yaml
+Copy code
+
+2. Open the **index.html** file in any browser.
+
+3. (Optional) Use **Live Server Extension** in VS Code for auto-refresh.
+
+---
+
+## 📸 Preview Screenshots (Optional)
+
+screenshots here showing:  
+✔ Home Page | ✔ Service Page | ✔ Contact Page | ✔ Mobile View
+
+---
+
+## 🤝 Connect with Me
+
+💌 Email: mnesa238@gmail.com  
+💼 Fiverr:  
+🔗 LinkedIn:  
+🌐 Portfolio:
+
+---
+
+## ⭐ Want to Support?
+
+If you like this project, please give a ⭐ on GitHub. 😊
+
+---

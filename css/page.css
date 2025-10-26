@@ -1,0 +1,44 @@
+/* =========== error page 404 ========== */
+
+.error-pg .flex{
+ flex-direction: column;
+}
+.error-pg i{
+  font-size: 5rem;
+  color: var(--primary-color);
+}
+
+/* =============== contact page =========== */
+.contact-form .container.flex{
+    flex-direction: column;
+}
+.contact-form .content.flex{
+    flex-direction: column;
+    text-align: center;
+}
+/* .signupForm * div{
+  width: 90%;
+  max-width: 1000px; 
+  margin: 0 auto; 
+} */
+.signupForm .flex{
+    gap: 0.6rem;
+}
+.signupForm input,
+.signupForm textarea{
+    width: 100%;
+    min-width: 300px;
+    padding-block: 0.8rem;
+    padding-inline: 0.8rem;
+    margin-block: 0.6rem;
+    border: 1px solid #ced4da;
+}
+.signupForm input::placeholder,
+.signupForm textarea::placeholder{
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-family: var(--font-family-base);
+}
+.signupForm .btn{
+    width: 100%;
+}

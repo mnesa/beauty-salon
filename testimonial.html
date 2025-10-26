@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beauty-salon</title>
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/page.css">
+
+</head>
+<body>
+    <header> 
+        <div class="container-fluid flex"> 
+            <div class="logo"> 
+                <i class="fa-solid fa-scissors"></i> Salone 
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+             <nav class="navbar" id="navbar">
+                 <ul id="navLinks"> 
+                    <li><a href="index.html">home</a></li>
+                     <li><a href="about.html">about</a></li> 
+                     <li><a href="services.html">services</a></li> 
+                     <li><a href="price.html">price</a></li>
+                     <li class="dropdown">
+                        <a href="#"  class="active drop-btn">pages <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="gallery.html">photo gallery</a>
+                            <a href="blog.html">beauty blog</a>
+                            <a href="team.html">our team</a>
+                            <a href="testimonial.html">testimonial</a>
+                            <a href="404.html">404 page</a>
+                        </div>
+                     </li>
+                     
+                             <li><a href="contact.html">contact</a></li> 
+                            </ul> 
+
+                            <div class="mobile-social"> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-facebook-f"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-instagram"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-linkedin-in"></i></a> 
+                        </div> 
+                        </nav> 
+                        <div class="social"> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-facebook-f"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-instagram"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-linkedin-in"></i></a> 
+                        </div> 
+                    </div> 
+                </header>
+
+<!-- ============ Testmonial page ============== -->
+ <section class="page">
+    <div class="container">
+        <div class="content right-side">
+            <h1>Testmonial</h1>
+        <p>
+            <a href="#">Home</a> / 
+            <a href="#">Testmonial</a>
+        </p>
+        </div>
+    </div>
+ </section>
+
+ <!-- ============ Testimonial section ============== -->
+<section class="testimonial">
+    <div class="container">
+        <div class="content fade">
+            <div class="h2">Testimonial</div>
+            <h2>What Clients Say!</h2>
+        </div>
+
+        <!-- slides -->
+<div class="slides">
+    <div class="slider-container">
+    <div class="slider-track" id="sliderTrack">
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ipsam accusantium rem ratione debitis.</p>
+        <img src="image/testimonial-1.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ratione debitis.</p>
+        <img src="image/testimonial-2.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ratione debitis.</p>
+        <img src="image/testimonial-3.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ratione debitis.</p>
+        <img src="image/testimonial-4.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="arrows">
+      <button class="arrow" onclick="move(-1)">&#10094;</button>
+      <button class="arrow" onclick="move(1)">&#10095;</button>
+    </div>
+</div>
+    </div>
+</section>
+
+
+<!-- ============ footer ============ -->
+  <footer class="footer">
+    <div class="container">
+        <div class="cards grid fade">
+            <!-- card 1 -->
+            <div class="card">
+                <div class="logo">
+                <i class="fa-solid fa-scissors"></i>
+                Salone
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos voluptatum nam nesciunt inventore molestias quo sit, quibusdam magni sint.</p>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</li>
+                    <li><i class="fa-solid fa-phone"></i> +012 345 67890</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@example.com</li>
+                </ul>
+                <div class="social-icon">
+                    <a href="#" class="btn"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="btn"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card">
+                <div class="flex">
+                    <ul>
+                        <h6>Quick Links</h6>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">About Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Contact Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Our Services</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Terms and Condition</a></li>
+                    </ul>
+                    <ul>
+                        <h6>Popular Links</h6>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">About Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Contact Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Our Services</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Terms and Condition</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <h6>Newsletter</h6>
+                    <div>
+                        <input type="email" name="" id="" placeholder="Enter Your Email ">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <p>Merem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container 2 -->
+    <div class="container flex fade">
+        <p>&copy; 2025 m_nesa. All Right Reserved. <br>
+            Coding by<span> m_nesa</span>: Frontend Development (HTML, CSS, JavaScript)
+        </p>
+        <p>Design by <span>HTML Codex</span></p>
+    </div>
+  </footer>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/slide2.js"></script>
+</body>
+</html>                

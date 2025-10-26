@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beauty-salon</title>
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header> 
+        <div class="container-fluid flex"> 
+            <div class="logo"> 
+                <a href="index.html"><i class="fa-solid fa-scissors"></i> Salone </a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+             <nav class="navbar" id="navbar">
+                 <ul> 
+                    <li><a href="index.html" class="active">home</a></li>
+                     <li><a href="about.html">about</a></li> 
+                     <li><a href="services.html">services</a></li> 
+                     <li><a href="price.html">price</a></li>
+                     <li class="dropdown">
+                        <a href="#" class="drop-btn">pages <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="gallery.html">photo gallery</a>
+                            <a href="blog.html">beauty blog</a>
+                            <a href="team.html">our team</a>
+                            <a href="testimonial.html">testimonial</a>
+                            <a href="404.html">404 page</a>
+                        </div>
+                     </li>
+                     
+                             <li><a href="contact.html">contact</a></li> 
+                            </ul> 
+
+                            <div class="mobile-social"> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-facebook-f"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-instagram"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-linkedin-in"></i></a> 
+                        </div> 
+                        </nav> 
+                        <div class="social"> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-facebook-f"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-instagram"></i></a> 
+                            <a href="#" class="btn i-btn"><i class="fa-brands fa-linkedin-in"></i></a> 
+                        </div> 
+                    </div> 
+                </header>
+
+<!-- ============ hero section ============= -->
+ <section class="hero">
+    <div class="container grid">
+        <!-- content class -->
+        <div class="content right-side">
+            <div class="h2">Welcome</div>
+            <h1>Beauty Salon Fashion for Women</h1>
+            <div class="boxes flex">
+                <div class="box flex">
+                    <p class="btn i-btn"><i class="fa-solid fa-phone"></i></p>
+                    <div>
+                        <h5>Call Us</h5>
+                        <p>+123456789</p>
+                    </div>
+                </div>
+                <div class="box flex">
+                    <p class="btn i-btn"><i class="fa-solid fa-envelope"></i></p>
+                    <div>
+                        <h5>Mail Us</h5>
+                        <p>info@domain.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- carousel class -->
+
+<div class="carousel">
+  <div class="carousel-track">
+    <!-- clone of last -->
+    <div class="carousel-slide" id="last-clone"><img src="image/hero-slider-3.jpg" alt="slide-image"></div>
+
+    <!-- real slides -->
+    <div class="carousel-slide"><img src="image/hero-slider-1.jpg" alt="slide-image"></div>
+    <div class="carousel-slide"><img src="image/hero-slider-2.jpg" alt="slide-image"></div>
+    <div class="carousel-slide"><img src="image/hero-slider-3.jpg" alt="slide-image"></div>
+
+    <!-- clone of first -->
+    <div class="carousel-slide" id="first-clone"><img src="image/hero-slider-1.jpg" alt="slide-image"></div>
+  </div>
+
+  <button class="btn2 prev">&#10094;</button>
+  <button class="btn2 next">&#10095;</button>
+</div>
+
+
+    </div>
+ </section>
+ <!-- ============ About section ============== -->
+  <section class="about">
+    <div class="container grid">
+        <div class="content-box">
+            <img src="image/about.jpg" class="fade delay-2" alt="about">
+            <div class="box flex">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h3>+0123456789</h3>
+                    <p>Call us direct 24/7 for get a free consultation</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="h2 fade delay-1">About Us</div>
+            <h2 class="fade delay-1">Why People Choose Us!</h2>
+            <p class="fade delay-1">Merem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam vero animi quis. Assumenda hic dolores qui, exercitationem repudiandae enim.</p>
+            <div class="counting">
+                <div class="cards flex">
+                    <div class="card">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h2><span class="num" data-value="25">00</span></h2>
+                        <p>Years experience</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-users"></i>
+                        <h2><span class="num" data-value="999">00</span></h2>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+  </section>
+<!--================== services section ========== -->
+<section class="services">
+    <div class="container">
+        <div class="content fade">
+            <div class="h2">Our Services</div>
+            <h2>Explore Our Services</h2>
+        </div>
+        <div class="cards grid">
+            <div class="card fade delay-1">
+                <img src="image/haircut.png" alt="haircut">
+                <h3>Haircut</h3>
+                <p>Harem ipsum dolor sit, amet consectetur adipisicing elit. Enim amet accusamus quod eum, ex quas.</p>
+                <a href="#" class="btn white-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card fade delay-2">
+                <img src="image/makeup.png" alt="haircut">
+                <h3>Makeup</h3>
+                <p>Harem ipsum dolor sit, amet consectetur adipisicing elit. Enim amet accusamus quod eum, ex quas.</p>
+                <a href="#" class="btn white-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card fade delay-3">
+                <img src="image/manicure.png" alt="haircut">
+                <h3>Manicure</h3>
+                <p>Harem ipsum dolor sit, amet consectetur adipisicing elit. Enim amet accusamus quod eum, ex quas.</p>
+                <a href="#" class="btn white-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card fade delay-4">
+                <img src="image/pedicure.png" alt="haircut">
+                <h3>Pedicure</h3>
+                <p>Harem ipsum dolor sit, amet consectetur adipisicing elit. Enim amet accusamus quod eum, ex quas.</p>
+                <a href="#" class="btn white-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card fade delay-5">
+                <img src="image/massage.png" alt="haircut">
+                <h3>Massage</h3>
+                <p>Harem ipsum dolor sit, amet consectetur adipisicing elit. Enim amet accusamus quod eum, ex quas.</p>
+                <a href="#" class="btn white-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card fade delay-6">
+                <img src="image/skin-care.png" alt="haircut">
+                <h3>Skin Care</h3>
+                <p>Harem ipsum dolor sit, amet consectetur adipisicing elit. Enim amet accusamus quod eum, ex quas.</p>
+                <a href="#" class="btn white-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- ============= Pricing section =========== -->
+ <section class="pricing">
+    <div class="container-fluid grid fade">
+        <!-- content -->
+        <div class="content flex">
+            <div class="h2">Pricing</div>
+            <h2>Beauty Salon</h2>
+            <h1>PRICING</h1>
+            <!-- boxes -->
+            <div class="boxes flex">
+                <div class="box">
+                    <h4>Enjoy</h4>
+                    <h1>20%</h1>
+                    <p>Off</p>
+                </div>
+                <div class="box">
+                    <p>Borem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere eos, unde cupiditate omnis dolor impedit.</p>
+                    <a href="#" class="btn dark-btn">get 20% off</a>
+                </div>
+            </div>
+        </div>
+        <!-- prices -->
+        <div class="prices">
+            <ul>
+                <li class="flex fade delay-1">
+                    <img src="image/price-1.jpg" alt="price">
+                    <div>
+                        <h6>haircut</h6>
+                        <h3>$49</h3>
+                    </div>
+                </li>
+                <li class="flex fade delay-2">
+                    <img src="image/price-2.jpg" alt="price">
+                    <div>
+                        <h6>Makeup</h6>
+                        <h3>$79</h3>
+                    </div>
+                </li>
+                <li class="flex fade delay-3">
+                    <img src="image/price-3.jpg" alt="price">
+                    <div>
+                        <h6>Manicure</h6>
+                        <h3>$29</h3>
+                    </div>
+                </li>
+                <li class="flex fade delay-4">
+                    <img src="image/price-4.jpg" alt="price">
+                    <div>
+                        <h6>Pedicure</h6>
+                        <h3>$39</h3>
+                    </div>
+                </li>
+                <li class="flex fade delay-5">
+                    <img src="image/price-5.jpg" alt="price">
+                    <div>
+                        <h6>Massage</h6>
+                        <h3>$69</h3>
+                    </div>
+                </li>
+                <li class="flex fade delay-6">
+                    <img src="image/price-6.jpg" alt="price">
+                    <div>
+                        <h6>Skin Care</h6>
+                        <h3>$79</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+ </section>
+
+<!-- =========== gellery section ============== -->
+ <section class="gallery-sec">
+    <div class="container">
+        <div class="content fade">
+            <div class="h2">Gallery</div>
+            <h2>Explore Our Gallery</h2>
+        </div>
+        <!-- gallery -->
+<div class="gallery">
+  <div class="gallery-item fade delay-1">
+    <img src="image/gallery-1.jpg" alt="image1">
+    <div class="overlay">
+      <div class="i-btn2"><i class="fa-solid fa-eye"></i></div>
+    </div>
+  </div>
+
+  <div class="gallery-item fade delay-2">
+    <img src="image/gallery-2.jpg" alt="image2">
+    <div class="overlay">
+      <div class="i-btn2"><i class="fa-solid fa-eye"></i></div>
+    </div>
+  </div>
+
+  <div class="gallery-item fade delay-3">
+    <img src="image/gallery-3.jpg" alt="image3">
+    <div class="overlay">
+      <div class="i-btn2"><i class="fa-solid fa-eye"></i></div>
+    </div>
+  </div>
+  <div class="gallery-item fade delay-4">
+    <img src="image/gallery-4.jpg" alt="image3">
+    <div class="overlay">
+      <div class="i-btn2"><i class="fa-solid fa-eye"></i></div>
+    </div>
+  </div>
+  <div class="gallery-item fade delay-5">
+    <img src="image/gallery-5.jpg" alt="image3">
+    <div class="overlay">
+      <div class="i-btn2"><i class="fa-solid fa-eye"></i></div>
+    </div>
+  </div>
+  <div class="gallery-item fade delay-6">
+    <img src="image/gallery-6.jpg" alt="image3">
+    <div class="overlay">
+      <div class="i-btn2"><i class="fa-solid fa-eye"></i></div>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <span class="close">&times;</span>
+  <img src="" alt="preview" id="lightbox-img">
+</div>
+
+    </div>
+ </section>
+
+ <!-- =========== Members =========== -->
+  <section class="members">
+    <div class="members-bg"></div>
+    <div class="container-fluid">
+        <div class="content fade">
+            <div class="h2">Team Members</div>
+            <h2>Our Experienced Specialists</h2>
+        </div>
+       
+        <div class="cards grid">
+            <div class="card fade delay-1">
+                <img src="image/team-1.jpg" alt="team member">
+                <div class="card-content">
+                        <p>Hair Specialist</p>
+                        <h4>Lily Taylor</h4>
+                    <div class="flex">
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card fade delay-2">
+                <img src="image/team-2.jpg" alt="team member">
+                <div class="card-content">
+                        <p>Nail Designer</p>
+                        <h4>Olivia Smith</h4>
+                    <div class="flex">
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card fade delay-3">
+                <img src="image/team-3.jpg" alt="team member">
+                <div class="card-content">
+                        <p>Beauty Specialist</p>
+                        <h4>Ava Brown</h4>
+                    <div class="flex">
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card fade delay-4">
+                <img src="image/team-4.jpg" alt="team member">
+                <div class="card-content">
+                        <p>Spa Specialist</p>
+                        <h4>Amelia Jones</h4>
+                    <div class="flex">
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="btn dark-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div> 
+        <!-- cards end -->
+
+    </div>
+  </section>
+
+  <!-- ============ Testimonial section ============== -->
+<section class="testimonial">
+    <div class="container">
+        <div class="content fade">
+            <div class="h2">Testimonial</div>
+            <h2>What Clients Say!</h2>
+        </div>
+
+        <!-- slides -->
+<div class="slides">
+    <div class="slider-container">
+    <div class="slider-track" id="sliderTrack">
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ipsam accusantium rem ratione debitis.</p>
+        <img src="image/testimonial-1.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ratione debitis.</p>
+        <img src="image/testimonial-2.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ratione debitis.</p>
+        <img src="image/testimonial-3.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+      <div class="slide flex">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Emrem ipsum dolor sit amet, consectetur adipisicing elit. Enim cupiditate ratione debitis.</p>
+        <img src="image/testimonial-4.jpg" alt="client">
+        <h5>Client Name</h5>
+        <p>profession</p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="arrows">
+      <button class="arrow" onclick="move(-1)">&#10094;</button>
+      <button class="arrow" onclick="move(1)">&#10095;</button>
+    </div>
+</div>
+    </div>
+</section>
+
+<!-- ===================== Blog section ======================= -->
+ <section class="blog">
+    <div class="container-fluid">
+        <div class="cards grid">
+            <div class="card grid">
+                <div class="content fade delay-1">
+                <p><i class="fa-solid fa-calendar-days"></i> Jan 01, 2045 | <i class="fa-solid fa-folder-open"></i> Hair Salon</p>
+                <h4>How to Extend The Life of Your Haircolor</h4>
+                <p>Qrrem ipsum dolor, sit amet consectetur adipisicing elit. Numquam laborum. Ipsum rem tempora consequuntur mollitia nisi repellat corporis.</p>
+                <a href="#" class="btn dark-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>
+                <img src="image/blog-1.jpg" class=" fade delay-2" alt="blog-1">
+            </div>
+            
+            <div class="card grid">
+                <div class="content fade delay-3">
+                <p><i class="fa-solid fa-calendar-days"></i> Jan 01, 2045 | <i class="fa-solid fa-folder-open"></i> Hair Salon</p>
+                <h4>Hottest Hairstyles and Haircuts in 2045</h4>
+                <p>Qrrem ipsum dolor, sit amet consectetur adipisicing elit. Numquam laborum. Ipsum rem tempora consequuntur mollitia nisi repellat corporis.</p>
+                <a href="#" class="btn dark-btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>
+                <img src="image/blog-2.jpg" class=" fade delay-4" alt="blog-2">
+            </div>
+            
+        </div>
+    </div>
+ </section>
+
+ <!-- ============ footer ============ -->
+  <footer class="footer">
+    <div class="container fade delay-1">
+        <div class="cards grid">
+            <!-- card 1 -->
+            <div class="card">
+                <div class="logo">
+                <i class="fa-solid fa-scissors"></i>
+                Salone
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos voluptatum nam nesciunt inventore molestias quo sit, quibusdam magni sint.</p>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</li>
+                    <li><i class="fa-solid fa-phone"></i> +012 345 67890</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@example.com</li>
+                </ul>
+                <div class="social-icon">
+                    <a href="#" class="btn"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="btn"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card">
+                <div class="flex">
+                    <ul>
+                        <h6>Quick Links</h6>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">About Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Contact Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Our Services</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Terms and Condition</a></li>
+                    </ul>
+                    <ul>
+                        <h6>Popular Links</h6>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">About Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Contact Us</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Our Services</a></li>
+                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Terms and Condition</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <h6>Newsletter</h6>
+                    <div>
+                        <input type="email" name="" id="" placeholder="Enter Your Email ">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <p>Merem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container 2 -->
+    <div class="container flex fade delay-2">
+        <p>&copy; 2025 m_nesa. All Right Reserved. <br>
+            Coding by<span> m_nesa</span>: Frontend Development (HTML, CSS, JavaScript)
+        </p>
+        <p>Design by <span>HTML Codex</span></p>
+    </div>
+  </footer>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/slide2.js"></script>
+
+</body>
+</html>
