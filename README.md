@@ -20,7 +20,7 @@ This project showcases clean UI/UX, mobile-friendly design, and smooth animation
 | 7. 404 page              | Error page)                      |
 | 8. Blog                  | Articles or tips related to beauty & skincare            |
 | 9. Contact               | Contact form + Google Map + salon location               |
-| 10. Testimonials         | Client reviews with slider/carousel                      |
+| 10. Testimonials         | Client reviews with carousel                             |
 
 ---
 
@@ -52,19 +52,21 @@ This project showcases clean UI/UX, mobile-friendly design, and smooth animation
 ## 📂 Folder Structure
 
 📁 Beauty-Salon-Website
-├── 📁 assets
 │ ├── 📁 images
 │ ├── 📁 css
+│ │ └── utility.css
+│ │ └── page.css
 │ │ └── style.css
 │ ├── 📁 js
-│ │ └── script.js
+│ │ └── main.js
+│ │ └── slide.js
 ├── index.html
 ├── about.html
 ├── services.html
-├── service-details.html
+├── 404.html
 ├── gallery.html
-├── pricing.html
-├── appointment.html
+├── price.html
+├── team.html
 ├── blog.html
 ├── contact.html
 ├── testimonials.html
@@ -78,23 +80,23 @@ This project showcases clean UI/UX, mobile-friendly design, and smooth animation
 
 2. Open the **index.html** file in any browser.
 
-3. (Optional) Use **Live Server Extension** in VS Code for auto-refresh.
+3.  Use **Live Server Extension** in VS Code for auto-refresh.
 
 ---
 
 ## 📸 Preview Screenshots (Optional)
 
 screenshots here showing:  
-✔ Home Page | ✔ Service Page | ✔ Contact Page | ✔ Mobile View
-
+✔ Home Page 
+![Preview](https://github.com/mnesa/beauty-salon/blob/main/salone.png?raw=true)
 ---
 
 ## 🤝 Connect with Me
 
 💌 Email: mnesa238@gmail.com  
-💼 Fiverr:  
-🔗 LinkedIn:  
-🌐 Portfolio:
+💼 Fiverr:  https://www.fiverr.com/mhnesa?public_mode=true
+🔗 LinkedIn:  www.linkedin.com/in/mahamuda-nesa-b64ba533a
+🌐 Portfolio: mahamuda.com
 
 ---
 
