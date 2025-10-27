@@ -95,8 +95,8 @@ screenshots here showing:
 
 💌 Email: mnesa238@gmail.com  
 💼 Fiverr:  https://www.fiverr.com/mhnesa?public_mode=true
-🔗 LinkedIn:  www.linkedin.com/in/mahamuda-nesa-b64ba533a
-🌐 Portfolio: mahamuda.com
+🔗 LinkedIn:  https://www.linkedin.com/in/mahamuda-nesa-b64ba533a/
+🌐 Portfolio: https://mahamuda.com/
 
 ---
 
