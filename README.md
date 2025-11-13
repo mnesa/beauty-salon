@@ -89,18 +89,14 @@ This project showcases clean UI/UX, mobile-friendly design, and smooth animation
 screenshots here showing:  
 Home Page 
 
-![Preview](https://github.com/mnesa/beauty-salon/blob/main/salone.png?raw=true)
+![Preview](https://mnesa.github.io/beauty-salon/)
 
 
-## 🤝 Connect with Me
-  
-💼 Fiverr:  https://www.fiverr.com/mhnesa?public_mode=true
-🔗 LinkedIn:  https://www.linkedin.com/in/mahamuda-nesa-b64ba533a/
-🌐 Portfolio: https://mahamuda.com/
+👩‍💻 Author
+GitHub Username: m_nesa
+Feel free to explore, fork, and contribute!
 
-
-## ⭐ Want to Support?
-
+## ⭐ Show your Support
 If you like this project, please give a ⭐ on GitHub. 😊
 
 ---
