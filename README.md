@@ -4,6 +4,7 @@
 
 A fully responsive and modern **Beauty Salon Website** with 10 pages.  
 This project showcases clean UI/UX, mobile-friendly design, and smooth animations — ideal for salons, spas, and beauty service businesses.
+Live Demo 👉 https://mnesa.github.io/beauty-salon/
 
 ---
 
@@ -89,7 +90,7 @@ This project showcases clean UI/UX, mobile-friendly design, and smooth animation
 screenshots here showing:  
 Home Page 
 
-![Preview](https://mnesa.github.io/beauty-salon/)
+![Preview](https://github.com/mnesa/beauty-salon/blob/main/salone.png)
 
 
 👩‍💻 Author
